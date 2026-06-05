@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+	int i;
+	i=1;
+	loop:if(i<6)
+	{
+		printf("%d\n",i);
+		i=i+1;
+		goto loop;
+	}
+	
+}
